@@ -6,7 +6,7 @@ sensu-pkgrepo:
     - file: /etc/apt/sources.list.d/sensu.list
     - keyid: 7580C77F
     - keyserver: keyserver.ubuntu.com
-    - key_url: http://repos.sensuapp.org/apt/pubkey.gpg
+    - key_url: https://repos.sensuapp.org/apt/pubkey.gpg
     - require_in:
       - pkg: sensu-package
 
